@@ -217,15 +217,15 @@ template {
 }
 
 /*!
- *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
+*  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+*  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+*/
 @-webkit-keyframes fa-spin {
     0% {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
+    
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -237,7 +237,7 @@ template {
         -webkit-transform: rotate(0deg);
         transform: rotate(0deg)
     }
-
+    
     to {
         -webkit-transform: rotate(359deg);
         transform: rotate(359deg)
@@ -245,7 +245,7 @@ template {
 }
 
 @-webkit-keyframes pulse {
-
+    
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -253,7 +253,7 @@ template {
         opacity: .4;
         top: 0
     }
-
+    
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -264,7 +264,7 @@ template {
 }
 
 @keyframes pulse {
-
+    
     0%,
     to {
         -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=40)";
@@ -272,7 +272,7 @@ template {
         opacity: .4;
         top: 0
     }
-
+    
     50% {
         -ms-filter: none;
         -webkit-filter: none;
@@ -3318,12 +3318,12 @@ template {
     -moz-osx-font-smoothing: grayscale
 }
 
-.devicon-express-original-wordmark:before {
-    content: "\e93c"
+.devicon-laravel-original-wordmark:before {
+    content: "\e851"
 }
 
-.devicon-express-original:before {
-    content: "\e93d"
+.devicon-laravel-original:before {
+    content: "\e851"
 }
 
 .devicon-devicon-plain-wordmark:before {
@@ -4196,9 +4196,9 @@ template {
     content: "\ec04"
 }
 
-.devicon-express-original-wordmark.colored,
-.devicon-express-original.colored {
-    color: #444
+.devicon-laravel-original-wordmark.colored,
+.devicon-laravel-original.colored {
+    color: #f15e5e
 }
 
 .devicon-devicon-plain-wordmark.colored,
@@ -4827,7 +4827,7 @@ a img {
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2B32B2, #1488CC);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    
     display: flex;
     vertical-align: bottom;
     width: 100%;
@@ -5054,27 +5054,27 @@ a img {
         margin-left: 0;
         width: 48%
     }
-
+    
     .contents,
     .contents-right {
         margin-top: -5%
     }
-
+    
     .contents-right,
     .images-right {
         float: right;
         width: 48%
     }
-
+    
     .images-right img {
         float: right
     }
-
+    
     .images-left {
         float: left;
         width: 48%
     }
-
+    
     .images-left img {
         float: left
     }
